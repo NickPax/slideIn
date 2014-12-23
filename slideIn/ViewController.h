@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import <Parse/Parse.h>
+@interface ViewController : UIViewController <UITableViewDelegate>
+{
+    NSArray *coloursArray;
+}
+- (IBAction)backButton;
 
-@interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITableView *theTableView;
+@property (weak, nonatomic) IBOutlet UIView *detailView;
+@property (weak, nonatomic) IBOutlet UILabel *detailLabel;
 
 @end
 
