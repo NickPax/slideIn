@@ -44,7 +44,7 @@
 
     }];
     
-    // could have said "self.detailView" instead of _detailView.
+   
 }
 
 
@@ -78,9 +78,6 @@
     //cell.cellTitle.text = [pfObj objectForKey:@"CellTitle"];
     
     
-    
-    
-    // Configure the cell...
     
     return cell;
 }
